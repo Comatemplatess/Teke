@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teker</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normaliz.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fontGoogle.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="loader"></div>
+    <!-- Header start   -->
+    <nav class="main-header" id="main-header">
+      <div class="container d-flex align-items-center gap-3">
+        <h2 class="mlogo d-flex align-items-center">Teker</h2>
+        <ul class="m-0 gap-1">
+          <li><a href="#landing" class="good">Home</a></li>
+          <li><a href="#about-section" class="good">About</a></li>
+          <li><a href="#services" class="good">Services</a></li>
+          <li><a href="#resume" class="good">Resume</a></li>
+          <li><a href="#portfolio" class="good">Portfolio</a></li>
+          <li><a href="#lastest-blog" class="good">Blog</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+        </ul>
+        <button onclick="myFunction()" class="icon-menu" id="icon-menu">
+          <div class="left-postion"></div>
+          <div class="action-hidden"></div>
+          <div class="right-postion"></div>
+        </button>
+      </div>
+    </nav>
+    <!-- Header End   -->
+    <!-- Start landing section  -->
+    <section class="landing position-relative" id="landing">
+      <div class="container d-flex align-items-center gap-5">
+        <div class="linkes">
+          <ul class="m-0">
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-basketball"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="welcome-massege">
+          <h1>Hi,i'm Teker</h1>
+          <h2>Frontend Developer & Wordpress Developer</h2>
+          <p>
+            high level exprerince in web design and wordpress knowledge,
+            producing quality work
+          </p>
+          <button class="contact" id="contact-me">
+            Contact me <i class="fa-regular fa-paper-plane"></i>
+          </button>
+        </div>
+        <div class="portfolio-img">
+          <div class="shap-img">
+            <img src="./img/img-personal.jpg" alt="" />
+          </div>
+        </div>
+        <a href="#about-section" class="scroll-down position-absolute">
+          <div class="shap-scroll"></div>
+          <p>scroll Down</p>
+        </a>
+      </div>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 390"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <path
+          d="M 0,400 C 0,400 0,200 0,200 C 95.48974358974357,192.23333333333335 190.97948717948714,184.46666666666667 260,196 C 329.02051282051286,207.53333333333333 371.5717948717949,238.3666666666667 436,244 C 500.4282051282051,249.6333333333333 586.7333333333333,230.06666666666666 675,195 C 763.2666666666667,159.93333333333334 853.4948717948719,109.36666666666667 948,125 C 1042.5051282051281,140.63333333333333 1141.2871794871794,222.46666666666664 1224,246 C 1306.7128205128206,269.53333333333336 1373.3564102564103,234.76666666666668 1440,200 C 1440,200 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#8d7ce5"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- End landing section  -->
+    <!-- start about section  -->
+    <section class="about-section" id="about-section">
+      <div class="shap shap-p-1"></div>
+      <div class="shap shap-p-2"></div>
+      <div class="container d-flex gap-5 align-items-center">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h3>
+            Hello! I'm <span>Teker Andrew</span>, I'm Professional Front End
+            Developer & Wordpress Developer.
+          </h3>
+          <p>
+            If you’re interested in creating a user-friendly environment by
+            writing code and moving forward in your career, then this job is for
+            you. We expect you to be a tech-savvy professional,
+          </p>
+
+          <div class="soicial-box d-flex gap-3">
+            <div class="soicial-media d-flex gap-3">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <button class="cv-download">Download CV</button>
+        </div>
+        <div class="all-analysis d-grid">
+          <div class="box-analysis">
+            <h2 class="counter" data-target="600"></h2>
+            <span>Clientes</span>
+          </div>
+          <div class="box-analysis">
+            <h2 class="counter" data-target="2000"></h2>
+            <span>Sale</span>
+          </div>
+          <div class="box-analysis">
+            <h2 class="counter" data-target="7000"></h2>
+            <span>Projects Complete</span>
+          </div>
+          <div class="box-analysis">
+            <h2 class="counter" data-target="7"></h2>
+            <span>Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about section  -->
+    <!-- Start services section  -->
+    <section class="services" id="services">
+      <h1 class="main-heading">Our services</h1>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <div class="container">
+        <div class="card-service">
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+        <div class="card-service">
+          <i class="fa-solid fa-layer-group"></i>
+          <h2>Web Development</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+        <div class="card-service">
+          <i class="fa-solid fa-pen-ruler"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+        <div class="card-service">
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+        <div class="card-service">
+          <i class="fa-solid fa-paintbrush"></i>
+          <h2>Graphic Design</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+        <div class="card-service">
+          <i class="fa-solid fa-chart-simple"></i>
+          <h2>SEO Marketing</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquid alias earum assumenda
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End services section  -->
+    <!-- Start Resume section  -->
+    <section class="resume" id="resume">
+      <h2 class="main-heading">Our Resume</h2>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <div class="container">
+        <h2 class="resume-title">My Education</h2>
+        <div class="my-education">
+          <div class="education-box">
+            <div class="edu-historay">2005-2008</div>
+            <h3>Computer Science</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+          <div class="education-box">
+            <div class="edu-historay">2008-2012</div>
+            <h3>Bachelor Degree</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+          <div class="education-box">
+            <div class="edu-historay">2013-2016</div>
+            <h3>Master Degree</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+        </div>
+        <h2 class="resume-title">My Experience</h2>
+        <div class="my-education">
+          <div class="education-box">
+            <div class="edu-historay">2017-2019</div>
+            <h3>Wordpress Developer</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+          <div class="education-box">
+            <div class="edu-historay">2019-2021</div>
+            <h3>Web Developer</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+          <div class="education-box">
+            <div class="edu-historay">2021-2022</div>
+            <h3>UI UX Designer</h3>
+            <span>International University</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              consectetur ut lorem vitae ultricies. Integer porta, libero sit
+              amet pretium lobortis
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume section  -->
+    <!-- Start Portfolio section  -->
+    <section class="portfolio" id="portfolio">
+      <div class="shap shap-p-2"></div>
+      <h2 class="main-heading">our Portfolio</h2>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <ul id="myBtnContainer">
+        <li class="btnn active" onclick="filterSelection('all')">All</li>
+        <li class="btnn" onclick="filterSelection('web')">web</li>
+        <li class="btnn" onclick="filterSelection('app')">app</li>
+        <li class="btnn" onclick="filterSelection('card')">card</li>
+      </ul>
+      <div class="container">
+        <div class="portfolio-box column web" id="portfolio-box">
+          <img src="./img/Portfolio-1.webp" alt="" />
+          <div class="zoom">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="portfolio-box column app" id="portfolio-box">
+          <img src="./img/Portfolio-2.webp" alt="" />
+          <div class="zoom">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="portfolio-box column web" id="portfolio-box">
+          <img src="./img/Portfolio-3.webp" alt="" />
+          <div class="zoom">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="portfolio-box column card" id="portfolio-box">
+          <img src="./img/Portfolio-4.webp" alt="" />
+          <div class="zoom"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="portfolio-box column app">
+          <img src="./img/Portfolio-5.webp" alt="" />
+          <div class="zoom">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="portfolio-box column card" id="portfolio-box">
+          <img src="./img/Portfolio-6.webp" alt="" />
+          <div class="zoom">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio section  -->
+    <!-- Start Feadback section  -->
+    <section class="feadback">
+      <h2 class="main-heading">Our Client Feadback</h2>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <div class="container">
+        <div class="wapper">
+          <button
+            href=""
+            onclick="setSlides(1)"
+            class="control_next position-absolute"
+          >
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <button
+            href=""
+            onclick="setSlides(1)"
+            class="control_prev position-absolute"
+          >
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-1.avif" alt="" />
+            </div>
+            <h3>Zula</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-2.avif" alt="" />
+            </div>
+            <h3>Winsome</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-3.avif" alt="" />
+            </div>
+            <h3>Windsor</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-4.avif" alt="" />
+            </div>
+            <h3>Whitney</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-5.avif" alt="" />
+            </div>
+            <h3>Wendy</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="feadback-box imageSlides">
+            <div class="feadback-image">
+              <img src="./img/avatar-6.avif" alt="" />
+            </div>
+            <h3>Wade</h3>
+            <span>Envato</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="box-evaluation">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Feadback section  -->
+    <!-- start Blog section  -->
+    <section class="latest-blog" id="lastest-blog">
+      <h2 class="main-heading">Our Latest Blog</h2>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <div class="container">
+        <div class="blog-box">
+          <div class="part-img">
+            <img src="./img/blog-1.jpg" alt="" />
+          </div>
+          <div class="part-title">
+            <h3>Social Science</h3>
+            <span>by Admin / 2 Comments / Design</span>
+            <p>
+              Unlike what is believed, Lorem Ipsum is not just a random text. It
+              has roots in a piece of classic Latin literature of 45 BC, which
+              makes it more than 2003 years old.
+            </p>
+            <a href="#"> read more</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <div class="part-img">
+            <img src="./img/blog-2.jpg" alt="" />
+          </div>
+          <div class="part-title">
+            <h3>Data Science</h3>
+            <span>by Admin / 2 Comments / Design</span>
+            <p>
+              Unlike what is believed, Lorem Ipsum is not just a random text. It
+              has roots in a piece of classic Latin literature of 45 BC, which
+              makes it more than 2003 years old.
+            </p>
+            <a href="#"> read more</a>
+          </div>
+        </div>
+        <div class="blog-box">
+          <div class="part-img">
+            <img src="./img/blog-3.jpg" alt="" />
+          </div>
+          <div class="part-title">
+            <h3>Social Science & Humanities</h3>
+            <span>by Admin / 2 Comments / Design</span>
+            <p>
+              Unlike what is believed, Lorem Ipsum is not just a random text. It
+              has roots in a piece of classic Latin literature of 45 BC, which
+              makes it more than 2003 years old.
+            </p>
+            <a href="#"> read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog section  -->
+    <!-- start contact section  -->
+    <section class="contact" id="contact-us">
+      <h2 class="main-heading">Contact Me</h2>
+      <p class="main-heading-p">
+        Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus
+        sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate
+      </p>
+      <div class="container">
+        <form action="#">
+          <div class="name-user">
+            <input type="text" placeholder="Name" name="name" />
+            <input type="email" placeholder="Your Email" name="Email" />
+          </div>
+          <input type="text" placeholder="Your Subject" name="Subject" />
+          <textarea
+            name="massage"
+            id="massage"
+            placeholder="Your Massage"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </form>
+        <input type="submit" value="Send" />
+      </div>
+      <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 390"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <path
+          d="M 0,400 C 0,400 0,200 0,200 C 129.92857142857142,178.78571428571428 259.85714285714283,157.57142857142858 379,166 C 498.14285714285717,174.42857142857142 606.5000000000001,212.5 709,237 C 811.4999999999999,261.5 908.1428571428571,272.42857142857144 1029,264 C 1149.857142857143,255.57142857142856 1294.9285714285716,227.78571428571428 1440,200 C 1440,200 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#191919"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- End contact section  -->
+    <!-- start Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="box-text">
+          <h2>Teker</h2>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+            nulla rem, dignissimos iste aspernatur
+          </p>
+        </div>
+        <div class="box-links">
+          <ul class="links">
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="box-info">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <p>dubai, Inside The Sphinx, Room Number 220</p>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <p>Business Hours: From 10:00 To 18:00</p>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <p>+20123456789<br />+20198765432</p>
+          </div>
+        </div>
+        <div class="box-image">
+          <img src="./img/Portfolio-1.webp" alt="" />
+          <img src="./img/Portfolio-2.webp" alt="" />
+          <img src="./img/Portfolio-3.webp" alt="" />
+          <img src="./img/Portfolio-4.webp" alt="" />
+          <img src="./img/Portfolio-5.webp" alt="" />
+          <img src="./img/Portfolio-6.webp" alt="" />
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright by
+        <a href="https://codecanyon.net/user/comatemplets">Comatemplets</a>
+        &#169;| All Rights Reserved
+      </p>
+    </footer>
+    <!-- End Footer  -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
